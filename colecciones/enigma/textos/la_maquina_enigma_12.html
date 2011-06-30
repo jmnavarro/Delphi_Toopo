@@ -1,0 +1,83 @@
+<html><head></head>
+
+<body>
+<p></p>
+<p align="center"><img src="la_maquina_enigma_12_files/logop.gif"></p>
+<h1>La máquina Enigma (XII)</h1>
+
+<br><br>
+<i>Por Román Ceano</i><br>
+<br>
+<img src="la_maquina_enigma_12_files/enigma.gif" alt="pic" align="left" border="0" height="70" hspace="8" vspace="4" width="124">Mediante
+permutaciones, no es difícil construir el modelo matemático de una
+máquina Enigma. Para definir la permutación inducida por toda la
+máquina, basta con nombrar la permutación que induce cada rueda con una
+letra y ponerlas una detrás de la otra. Si llamamos L,M,N las
+permutaciones inducidas por cada una de las tres ruedas, R a la que
+induce el reflector y S la que induce el panel de conexionado obtenemos
+que la permutación de una máquina completa es igual a la composición
+SNMLRL&acute;M&acute;N&acute;S&acute; donde las letras primas representan permutaciones
+inversas. Si queremos obtener el alfabeto que define la permutación
+resultado para una posición determinada debemos teclear todas las
+letras en orden alfabético, pero teniendo la precaución de deshacer
+cada vez el giro de las ruedas que se hayan movido. Si repitiéramos la
+operación para todas las posiciones posibles (y en el caso de la Enigma
+I cada una con todas las configuraciones del panel) obtendríamos el
+juego completo de alfabetos de Enigma...<br><br>
+Las sustituciones determinadas por las colecciones diarias de
+indicadores eran el resultado de las dos veces que el operador tecleaba
+una misma letra. Si un día determinado, el operador tecleaba una cierta
+letra en primer lugar y obtenía una J, cuando volviera a teclear esa
+misma letra desconocida tres posiciones más allá obtendría una B. No se
+podía saber qué tecla había tecleado el operador, pero se podía
+asegurar que para la misma posición inicial, una J en la primera
+posición implicaba una B en la cuarta (lo mismo pasaba para las parejas
+de posiciones 2ª y 5ª; y 3ª y 6ª). Podemos definir una permutación que
+transforme unas en otras para cada una de las tres parejas. Podemos
+decir que si a la letra que aparece en la primera posición le aplicamos
+la transformación determinada por la inversa de la que le aplica
+Enigma, obtendremos la letra original y si a esa letra le aplicamos la
+transformación que induce Enigma en la cuarta posición obtendremos la
+cuarta letra. Como Enigma es simétrica, Rejewski definió: <br>
+<br>
+<img src="la_maquina_enigma_12_files/ecuaciones01.gif" alt="pic" align="middle" border="0" height="537" hspace="8" vspace="0" width="443"> <br>
+<br clear="all"><br>
+Su objetivo final sería, en caso de que fuese posible, relacionar estas
+composiciones de permutaciones conocidas con las permutaciones de las
+ruedas. Para ello, debía refinar su modelo para que reflejara el
+movimiento de éstas. Probablemente por consejo de sus mentores, decidió
+trabajar de momento sólo sobre los casos en los que se movía únicamente
+una rueda, despreciando aquellos casos en los que durante el tecleado
+del indicativo se mueven dos o tres ruedas. Estadísticamente esto
+último ocurre sólo en 6 de cada 26 posibilidades y la complejidad es
+infinitamente mayor. Gracias a esta abstracción, para recrear el
+movimiento de Enigma le bastó definir una nueva permutación muy
+sencilla (notada P) que convierte la a en b, la b en c, etc... es
+decir, una permutación que hace moverse una posición la letra aplicada
+a la permutación de cada rueda, con lo que se simula el giro. Situando
+esta permutación delante de la letra L -que representaba la permutación
+inducida por la rueda lenta- y su inversa detrás, obtuvo un modelo
+dinámico de Enigma. <br>
+<br>
+Ahora Rejewski estaba en condiciones de escribir un sistema de
+ecuaciones completo que reuniese todas las expresiones y todos los
+datos que tenía. Así por ejemplo disponía de las definiciones de A,B,
+C, etc... que, asumiendo que sólo se movía una rueda, eran de la forma :<br>
+<br>
+<img src="la_maquina_enigma_12_files/ecuaciones02.gif" alt="pic" align="middle" border="0" height="276" hspace="8" vspace="0" width="270"> <br>
+<br clear="all"><br>
+Para poder operar estas ecuaciones, Rejewski necesitaba conocer a fondo
+las reglas que gobernaban el álgebra de permutaciones. No sabemos
+cuánto recordaba de sus estudios y cuánto tuvo que repasar, pero en muy
+poco tiempo se convirtió en un experto. En esa época las permutaciones
+no eran populares entre los matemáticos, pero afortunadamente para
+Rejewski existía -para quien lo buscara- abundante material sobre el
+tema. Las permutaciones habían estado un tiempo en el centro del debate
+matemático y grandes genios les habían deparado su atención.<br>
+<br>
+© Román Ceano. Todos los derechos reservados.<br>
+<br>
+<a href="http://www.kriptopolis.org/node/32">Continúa...</a><br>
+<br>
+<br><br>
+</body></html>

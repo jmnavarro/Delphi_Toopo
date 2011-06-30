@@ -1,0 +1,17 @@
+ruedas=ruega
+alemanes=aleman
+alemana=aleman
+alemanas=aleman
+polacos=polaco
+polaca=polaco
+polacas=polaco
+cifrado=cifrar
+cifrable=cifrar
+cifrando=cifrar
+descifrado=descifrar
+descifrable=descifrar
+descifrando=descifrar
+matematicas=matematica
+vender=venta
+vendido=venta
+norteamericanos=norteamericano

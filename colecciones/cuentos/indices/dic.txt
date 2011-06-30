@@ -1,0 +1,16 @@
+niñas=niña
+niñita=niña
+niños=niño
+años=año
+flores=flor
+migajas=miga
+migas=miga
+malas=malo
+mala=malo
+zapatillas=zapato
+zapatilla=zapato
+zapatito=zapato
+zapatitos=zapato
+zapatos=zapato
+abuelita=abuela
+grandes=grande
